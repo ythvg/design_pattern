@@ -18,6 +18,6 @@ module.exports = {
     ]
   },
   plugins: [new HtmlWebpackPlugin({
-    title: 'Design Patterns',
+    template: './index.html'
   })]
 };
